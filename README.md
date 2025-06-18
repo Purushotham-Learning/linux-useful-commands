@@ -44,3 +44,13 @@ iftop / nethogs   # Monitor live network bandwidth usage by connection
 strace -p <pid>   # Trace system calls of a running process
 journalctl -xe    # View recent and detailed systemd logs
 tail -f /var/log/syslog # Follow system logs in real-time
+
+**General System Info**
+uptime            # Show current uptime and load averages
+w / who / users   # Show who’s logged in and what they’re doing
+whoami            # Print current effective username
+hostname          # Show or set system hostname
+date              # Show current date and time
+cal               # Display a calendar for the current month/year
+compgen -c        # List all available shell commands
+
